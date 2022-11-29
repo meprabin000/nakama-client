@@ -1,0 +1,94 @@
+.App {
+  /*text-align: center;*/
+  padding: 4rem; 
+  font-family: 'baskerville';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #d72704;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Homepage Buttons */
+.featureTab {
+  color: #e9d6d6;
+  width: 40%;
+  text-align: center;
+  padding: 4px;
+  font-size: 25px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 5px;
+  background-color: #470000;
+  position: relative;
+  border-radius: 15px;
+  font-family: 'baskerville'
+}
+
+.link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Home.js */
+.homepage {
+  background-color: #000000;
+  height: 87vh;
+}
+
+.featureTabs {
+  color: rgb(100, 100, 167);
+  text-align: center;
+  font-size: 0px;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+
+.homeImage {
+  width: 100%;
+  height: 84vh;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.homeImage > img {
+  width: 100%;
+  height: 87vh;
+}
